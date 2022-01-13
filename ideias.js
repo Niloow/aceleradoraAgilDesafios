@@ -43,6 +43,11 @@ function ipi() {
   return valorIpi.toFixed(2);
 }
 
+function valorIpi() {
+  / //  let valorIpi = calcularValorDoPedido(valorUnitario, quantidade) * ipi;
+//   console.log(`Tarifa IPI: R$${valorIpi.toFixed(2)}`);
+}
+
 console.log(icms());
 console.log(ipi());
 
